@@ -15,4 +15,9 @@
 		<priority>0.50</priority>
 		<lastmod>2025-12-31</lastmod>
 	</url>
+	<url>
+		<loc>https://www.spanishguitar.cat/test.php</loc>
+		<priority>0.50</priority>
+		<lastmod>2026-01-02</lastmod>
+	</url>
 </urlset>
