@@ -8,7 +8,7 @@
         <?php include "common-php/head.html"; ?>
         <!-- /COMMON-HEAD -->
 
-        <title>??Elegant Spanish Guitarist for Destination Weddings in Barcelona, Costa Brava & Sitges</title>
+        <title>Elegant Spanish Guitarist for Destination Weddings in Barcelona, Costa Brava & Sitges</title>
 
         <meta name="description" content="Professional Spanish guitarist for destination weddings in Barcelona, Costa Brava, and Sitges. Elegant live music for your ceremony and cocktail hour. Book your authentic Mediterranean soundtrack.">
         <meta name="subject" content="Spanish Guitarist for Weddings and Events in Barcelona, Costa Brava and Sitges">
