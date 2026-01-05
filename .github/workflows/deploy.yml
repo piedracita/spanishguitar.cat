@@ -9,6 +9,12 @@ jobs:
   web-deploy:
     name: 🎉 Syncing Files
     runs-on: ubuntu-latest
+
+    # AIXÒ ÉS EL QUE EVITARÀ QUE ES SOLAPIN PROCESSOS
+    concurrency: 
+      group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: true
+
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v3
@@ -22,3 +28,4 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         server-dir: ./spanishguitar.cat/
+        timeout: 60000 # Un minut de marge per si el servidor va lent
